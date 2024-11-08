@@ -1,3 +1,21 @@
 .padded {
-        padding: 1rem;
+  padding: 1rem;
+}
+
+.divider {
+  width: 100%;
+  height: 4rem;
+  background-color: color(srgb 0.1169 0.1308 0.14);
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15)
+}
+
+.banner {
+  background-color: color(srgb 0.1688 0.1889 0.2099);
+  background-clip: content-box;
+  width: 100%
+}
+
+.image {
+  padding: 1rem;
+  background-color: color(srgb 0.1688 0.1889 0.2099);
 }

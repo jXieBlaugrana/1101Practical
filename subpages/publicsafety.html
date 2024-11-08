@@ -7,74 +7,72 @@
     <link href="../css/style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    
+
   </head>
   <body data-bs-theme="dark">
     <!-- Header bar at top of page -->
-    <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-          <span class="navbar-brand mb-0 h1">PosApp</span>
-        </div>
+    <nav class="navbar bg-body-tertiary sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand mb-0 h1" href="../index.html">PosApp</a>
+      </div>
     </nav> 
 
     <!-- Content format -->
-     <div class="bd-cheatsheet container-fluid bg-body">
-        <div class="container">
-            <section>
-                <!-- TODO: fix headings and use bootstrap for images -->
-                <h1 class="sticky-xl-top fw-bold text-start pt-3" style="mix-blend-mode: difference; z-index: 10;">Public Safety</h2>
-                
-                <div class="container-lg">
-                    <article>
-                        <h2 class="sticky-lg-top pb-2 pt-5" style="mix-blend-mode: difference; z-index: 10;">Traffic Management</h2>
-                        <h3> Real-Time Traffic Monitoring and Control</h3>
-                        <img src="resources/traffic.jpg" alt="traffic light" width=360px height = 360px>
-                        <p class="lead">Traffic Sensors and Cameras: Sensors embedded in roads and traffic cameras gather real-time data on vehicle flow, speed, and congestion levels. This information helps traffic management centers monitor traffic conditions continuously.</p>
-                        <p class="lead">Adaptive Traffic Signals: Using real-time data, adaptive traffic signals adjust light timings dynamically to optimize traffic flow, reduce wait times at intersections, and prioritize emergency vehicles when needed.</p>
-                        <h3>Public Transportation Optimization</h3>
-                        <p class="lead">Bus and Train Schedules: Data analytics enables more efficient scheduling of buses, trains, and subways based on demand, time of day, and special events, which enhances the attractiveness and reliability of public transit.</p>
-                        <p class="lead">Real-Time Passenger Information: Digital signage and apps provide passengers with real-time arrival and delay information, making public transit more user-friendly and reducing the need for individual car travel.</p>
-                        <h3>Dynamic Traffic Routing</h3>
-                        <p class="lead">Smart Navigation Apps: Apps like Google Maps and Waze use real-time data to suggest optimal routes, rerouting drivers around congestion, accidents, or road closures. These apps distribute traffic more evenly across available routes, reducing bottlenecks.</p>
-                        <p class="lead">Vehicle-to-Infrastructure (V2I) Communication: Vehicles communicate with traffic lights, road signs, and other infrastructure, enabling systems to suggest alternative routes in real-time and alert drivers about speed adjustments, upcoming traffic conditions, or hazards.</p>
-                        
-                    </article>
-                </div>
-                
-                <div class="container-lg">
-                    <article>
-                        <h2 class="sticky-lg-top pb-2 pt-5" style="mix-blend-mode: difference; z-index: 10;">Emergency Response Systems</h3>
-                            <img src="resources/emergency response.jpeg" alt="emergency" width=360px height=360px>
-                            <h3>Real-Time Detection and Alerts</h3>
-                            <p class="lead">Early Warning Systems: Sensors and AI algorithms analyze data from weather stations, seismic detectors, and other sources to provide early warnings for natural disasters like earthquakes, floods, and wildfires.</p>
-                            <p class="lead">Social Media and Crowd-Sourced Alerts: AI scans social media for emergency reports and alerts, helping detect crises in real-time and reach a wider audience quickly.</p>
-                            <h3>Enhanced Communication and Coordination</h3>
-                            <p class="lead">Unified Communication Platforms: Computing facilitates communication across multiple agencies (police, fire, medical), ensuring responders are well-coordinated and information is quickly shared.</p>
-                            <p class="lead">Incident Command Systems: These digital platforms enable centralized coordination, reducing confusion and speeding up response in complex emergencies.</p>
-                            <h3>Remote Patient Monitoring and Health Management</h3>
-                            <p class="lead">Telemedicine in Emergencies: Remote monitoring tools allow responders to assess patients’ vitals in real time, ensuring timely care, especially in situations like natural disasters or pandemics.</p>
-                            <p class="lead">Emergency Data Sharing: Patient data can be shared securely with hospitals en route, so emergency teams are prepared and ready to treat patients upon arrival.</p>
-                    </article>
-                </div>
+    <div class="bd-cheatsheet container-fluid bg-body">
+      <div class="container">
+        <section>
+          <!-- TODO: fix headings and use bootstrap for images -->
+          <h1 class="fw-bold text-start pt-5" style="z-index: 10;">Public Safety</h2>
 
-                <div class="container-lg"></div>
-                    <article>
-                        <h2 class="sticky-lg-top pb-2 pt-5" style="mix-blend-mode: difference; z-index: 10;">Help Solving Crimes</h2>
-                            <img src="resources/crime solving.jpg" alt="smooth criminal" width=360px height=360px>
-                            <h3>Forensic Analysis</h3>
-                            <p class="lead">DNA and Fingerprint Analysis: Computing speeds up DNA and fingerprint matching, helping link suspects to crime scenes accurately and efficiently.</p>
-                            <p class="lead">Digital Forensics: Specialized software extracts data from devices (e.g., phones, computers), uncovering critical evidence like communication records, locations, and files.</p>
-                            <h3>Crime Pattern Analysis</h3>
-                            <p class="lead">Predictive Policing: Data analytics and machine learning identify crime hotspots and patterns, helping law enforcement allocate resources to prevent crimes before they happen.</p>
-                            <p class="lead">Trend Analysis: Algorithms analyze historical crime data to reveal trends, aiding long-term strategy in crime prevention.</p>
-                            <h3>Facial Recognition and Surveillance</h3>
-                            <p class="lead">Facial Recognition: AI analyzes CCTV footage to identify suspects, track movements, and locate missing persons, enhancing the speed and accuracy of investigations.</p>
-                            <p class="lead">Video Analytics: Advanced video analysis detects suspicious activities in real time, alerting authorities to potential threats.</p>
-                    </article>
-                </div>
-            </section>
-        </div>
-     </div>
-     
-</body>
+            <div class="container-lg">
+              <article>
+                <h2 class="sticky-lg-top banner pb-2 pt-5" style="z-index: 10;">Traffic Management</h2>
+                <h3> Real-Time Traffic Monitoring and Control</h3>
+                <img src="resources/traffic.jpg" alt="traffic light" class="image" width=400px height = 400px>
+                <p class="lead">Traffic Sensors and Cameras: Sensors embedded in roads and traffic cameras gather real-time data on vehicle flow, speed, and congestion levels. This information helps traffic management centers monitor traffic conditions continuously.</p>
+                <p class="lead">Adaptive Traffic Signals: Using real-time data, adaptive traffic signals adjust light timings dynamically to optimize traffic flow, reduce wait times at intersections, and prioritize emergency vehicles when needed.</p>
+                <h3>Public Transportation Optimization</h3>
+                <p class="lead">Bus and Train Schedules: Data analytics enables more efficient scheduling of buses, trains, and subways based on demand, time of day, and special events, which enhances the attractiveness and reliability of public transit.</p>
+                <p class="lead">Real-Time Passenger Information: Digital signage and apps provide passengers with real-time arrival and delay information, making public transit more user-friendly and reducing the need for individual car travel.</p>
+                <h3>Dynamic Traffic Routing</h3>
+                <p class="lead">Smart Navigation Apps: Apps like Google Maps and Waze use real-time data to suggest optimal routes, rerouting drivers around congestion, accidents, or road closures. These apps distribute traffic more evenly across available routes, reducing bottlenecks.</p>
+                <p class="lead">Vehicle-to-Infrastructure (V2I) Communication: Vehicles communicate with traffic lights, road signs, and other infrastructure, enabling systems to suggest alternative routes in real-time and alert drivers about speed adjustments, upcoming traffic conditions, or hazards.</p>
+
+              </article>
+            </div>
+
+            <div class="container-lg">
+              <article>
+                <h2 class="sticky-lg-top banner pb-2 pt-5" style="z-index: 10;">Emergency Response Systems</h3>
+                  <img src="resources/emergency response.jpeg" alt="emergency" class="image" width=400px height = 400px>
+                  <h3>Real-Time Detection and Alerts</h3>
+                  <p class="lead">Early Warning Systems: Sensors and AI algorithms analyze data from weather stations, seismic detectors, and other sources to provide early warnings for natural disasters like earthquakes, floods, and wildfires.</p>
+                  <p class="lead">Social Media and Crowd-Sourced Alerts: AI scans social media for emergency reports and alerts, helping detect crises in real-time and reach a wider audience quickly.</p>
+                  <h3>Enhanced Communication and Coordination</h3>
+                  <p class="lead">Unified Communication Platforms: Computing facilitates communication across multiple agencies (police, fire, medical), ensuring responders are well-coordinated and information is quickly shared.</p>
+                  <p class="lead">Incident Command Systems: These digital platforms enable centralized coordination, reducing confusion and speeding up response in complex emergencies.</p>
+                  <h3>Remote Patient Monitoring and Health Management</h3>
+                  <p class="lead">Telemedicine in Emergencies: Remote monitoring tools allow responders to assess patients’ vitals in real time, ensuring timely care, especially in situations like natural disasters or pandemics.</p>
+                  <p class="lead">Emergency Data Sharing: Patient data can be shared securely with hospitals en route, so emergency teams are prepared and ready to treat patients upon arrival.</p>
+              </article>
+            </div>
+
+            <div class="container-lg">
+              <article>
+                <h2 class="sticky-lg-top banner pb-2 pt-5" style="z-index: 10;">Help Solving Crimes</h2>
+                <img src="resources/crime solving.jpg" alt="smooth criminal" class="image" width=400px height = 400px>
+                <h3>Forensic Analysis</h3>
+                <p class="lead">DNA and Fingerprint Analysis: Computing speeds up DNA and fingerprint matching, helping link suspects to crime scenes accurately and efficiently.</p>
+                <p class="lead">Digital Forensics: Specialized software extracts data from devices (e.g., phones, computers), uncovering critical evidence like communication records, locations, and files.</p>
+                <h3>Crime Pattern Analysis</h3>
+                <p class="lead">Predictive Policing: Data analytics and machine learning identify crime hotspots and patterns, helping law enforcement allocate resources to prevent crimes before they happen.</p>
+                <p class="lead">Trend Analysis: Algorithms analyze historical crime data to reveal trends, aiding long-term strategy in crime prevention.</p>
+                <h3>Facial Recognition and Surveillance</h3>
+                <p class="lead">Facial Recognition: AI analyzes CCTV footage to identify suspects, track movements, and locate missing persons, enhancing the speed and accuracy of investigations.</p>
+                <p class="lead">Video Analytics: Advanced video analysis detects suspicious activities in real time, alerting authorities to potential threats.</p>
+              </article>
+            </div>
+        </section>
+      </div>
+  </body>
 </html>
